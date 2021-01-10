@@ -2,6 +2,8 @@
 
 Ebben a webalkalmazásban a React könyvtár használatát gyakoroltam függvénykomponensek és React hook-ok segítségével.
 
+https://zsolt-petho.github.io/ReactProjekt-Koltsegek/
+
 ## Az alkalmazás funkciói:
 
 Az alapvető funckció a tárgyhavi költések összesítése.
