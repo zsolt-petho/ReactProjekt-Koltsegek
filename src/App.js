@@ -44,7 +44,7 @@ function App() {
   const [ellenérték, setEllenérték] = useState("");
   const [értesítés, setÉrtesítés] = useState({ show: false });
   const [módosít, setMódosít] = useState(false);
-  const [id, SetId] = useState(0);
+  const [id, setId] = useState(0);
 
   const handleKiadás = (e) => {
     setKiadás(e.target.value);
@@ -107,7 +107,7 @@ function App() {
     setKiadás(kiadás);
     setEllenérték(ellenérték);
     setMódosít(true);
-    SetId(id);
+    setId(id);
   };
 
   return (
@@ -141,6 +141,7 @@ function App() {
           handleTöröl={handleTöröl}
           handleMódosít={handleMódosít}
           listaTörlése={listaTörlése}
+          módosít={módosít}
         />
       </main>
     </>
