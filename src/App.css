@@ -75,11 +75,13 @@ label {
 .btn-töröl:disabled {
   background: #d8d6d6;
   color: rgba(128, 128, 128, 0.562);
+  cursor: not-allowed;
 }
 
 .btn-listat-töröl:disabled {
   background: #d8d6d6;
   color: rgba(128, 128, 128, 0.562);
+  cursor: not-allowed;
 }
 
 .btn-ikon {
