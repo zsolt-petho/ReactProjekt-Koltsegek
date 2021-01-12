@@ -6,7 +6,8 @@ const KöltségLista = ({
   költségek,
   handleTöröl,
   handleMódosít,
-  listaTörlése
+  listaTörlése, 
+  módosít
 }) => {
   return (
     <>
@@ -18,16 +19,29 @@ const KöltségLista = ({
               költség={költség}
               handleTöröl={handleTöröl}
               handleMódosít={handleMódosít}
+              módosít={módosít}
             />
           );
         })}
       </ul>
-      {költségek.length > 0 && (
-        <button className="btn btn-listat-töröl" onClick={listaTörlése}>
-          Teljes lista törlése
-          <MdDeleteForever className="btn-ikon" />
-        </button>
-      )}
+      {módosít
+        ? költségek.length > 0 && (
+            <button
+              className="btn btn-listat-töröl"
+              onClick={listaTörlése}
+              disabled={true}>
+              Teljes lista törlése
+              <MdDeleteForever className="btn-ikon" />
+            </button>
+            )
+        : költségek.length > 0 && (
+            <button 
+              className="btn btn-listat-töröl" 
+              onClick={listaTörlése}>
+              Teljes lista törlése
+              <MdDeleteForever className="btn-ikon" />
+            </button>
+          )};
     </>
   );
 };
