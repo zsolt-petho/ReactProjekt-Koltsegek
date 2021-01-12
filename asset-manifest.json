@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/ReactProjekt-Koltsegek/static/css/main.95f72d77.chunk.css",
+    "main.css": "/ReactProjekt-Koltsegek/static/css/main.96fdbac3.chunk.css",
     "main.js": "/ReactProjekt-Koltsegek/static/js/main.b12a61ef.chunk.js",
     "main.js.map": "/ReactProjekt-Koltsegek/static/js/main.b12a61ef.chunk.js.map",
     "runtime-main.js": "/ReactProjekt-Koltsegek/static/js/runtime-main.7eca8a5c.js",
@@ -8,13 +8,13 @@
     "static/js/2.ce2e27b5.chunk.js": "/ReactProjekt-Koltsegek/static/js/2.ce2e27b5.chunk.js",
     "static/js/2.ce2e27b5.chunk.js.map": "/ReactProjekt-Koltsegek/static/js/2.ce2e27b5.chunk.js.map",
     "index.html": "/ReactProjekt-Koltsegek/index.html",
-    "static/css/main.95f72d77.chunk.css.map": "/ReactProjekt-Koltsegek/static/css/main.95f72d77.chunk.css.map",
+    "static/css/main.96fdbac3.chunk.css.map": "/ReactProjekt-Koltsegek/static/css/main.96fdbac3.chunk.css.map",
     "static/js/2.ce2e27b5.chunk.js.LICENSE.txt": "/ReactProjekt-Koltsegek/static/js/2.ce2e27b5.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.7eca8a5c.js",
     "static/js/2.ce2e27b5.chunk.js",
-    "static/css/main.95f72d77.chunk.css",
+    "static/css/main.96fdbac3.chunk.css",
     "static/js/main.b12a61ef.chunk.js"
   ]
 }
